@@ -135,7 +135,7 @@
       },
       {
         "id": 12,
-        "keyword": "advanced medium longtime highcost repair",
+        "keyword": "customize advanced medium longtime highcost repair",
         "title": "Advanced Medium Package",
         "content": "We will customize a medium scale but with premium quality improving service for your existing project that will meet all your demand. We will report you the process every two weeks and continuously improve the product base on your comment during development period.",
         "scale": "2-4 developers",
@@ -180,6 +180,42 @@
         "price": "To be negotiated",
         "currency": "SEK",
         "freeRevise": "as many times as you need"
+      },
+      {
+        "id": 16,
+        "keyword": "customize basic big medium small shortime lowcost create",
+        "title": "Basic Customize Package",
+        "content": "We will provide you a basic customize experience, with the best quality in short time. Every two weeks we will report you the progress and continuously improve the product base on your comment during development period.",
+        "scale": "Base on your demand",
+        "deliverTime": "Base on your demand",
+        "img": "service3",
+        "price": 255000,
+        "currency": "SEK",
+        "freeRevise": 3
+      },
+      {
+        "id": 17,
+        "keyword": "customize advance big medium small lonetime highcost create",
+        "title": "Advance Customize Package",
+        "content": "We will provide you a advance customize experience with the best quality in short time. Progress report will be hold once a week.",
+        "scale": "Base on your demand",
+        "deliverTime": "Base on your demand",
+        "img": "service6",
+        "price": 255000,
+        "currency": "SEK",
+        "freeRevise": 3
+      },
+      {
+        "id": 18,
+        "keyword": "customize basic small medium big shorttime lowcost repair",
+        "title": "Basic Customize Package",
+        "content": "We will deliver you a high quality and customized result in a short period of time",
+        "scale": "3-5 developers",
+        "deliverTime": "To be negotiated",
+        "img": "service10",
+        "price": 255000,
+        "currency": "SEK",
+        "freeRevise": 3
       }
     ],
 

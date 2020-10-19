@@ -71,6 +71,7 @@ export default class Quiz extends Component {
     } else {
       const LS_KEY = "service_result";
       localStorage.setItem(LS_KEY, JSON.stringify(filteredArray));
+      
       window.location.replace("/service");
     }
   }
