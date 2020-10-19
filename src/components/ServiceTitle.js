@@ -9,10 +9,7 @@ export default class ServiceTitle extends Component {
     this.props.callback(id);
   }
   render() {
-    const source = (src) => {
-      return require(`../img/${src}.jpg`);
-    };
-    const { title, id, img } = this.props;
+    const { title, id } = this.props;
     return (
       <div className="service-title" onClick={() => this.idCallback(id)}>
         <h6 className="service-title-text">{title}</h6>

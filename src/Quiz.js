@@ -19,7 +19,6 @@ export default class Quiz extends Component {
     };
     this.filterService = this.filterService.bind(this);
     this.inputHandler = this.inputHandler.bind(this);
-    //this.showServices = this.showServices.bind(this);
   }
   async getService() {
     const data = await fetchService();
@@ -102,15 +101,6 @@ export default class Quiz extends Component {
       this.setState({ quizNr: quizNr });
     }
   }
-  /*showServices = () => {
-    let name = this.state.name;
-    let email = this.state.email;
-    if (name && email) {
-      const LS_KEY = "service_result";
-      localStorage.setItem(LS_KEY, JSON.stringify(this.state.filteredService));
-      window.location.replace("/service");
-    }
-  };*/
   async showRightQuiz() {
     const name = await fetchClientName();
     this.setState({
@@ -135,25 +125,9 @@ export default class Quiz extends Component {
     this.getQuiz();
     this.showRightQuiz();
   }
-  /*componentDidUpdate() {
-    this.showRightQuiz();
-  }*/
   componentWillUnmount() {
     this.showRightQuiz();
   }
-  /*{this.state.quiz.map((quiz) => (
-    <QuizDiv
-      key={quiz.id}
-      id={quiz.id}
-      question={quiz.question}
-      answers={quiz.answers}
-      stateName={quiz.stateName}
-      callbackFunction={this.filterService}
-      getInput={this.inputHandler}
-    />
-  ))}
-</div>
-) : null}*/
   render() {
     const renderService = this.state.quiz[this.state.quizNr];
     return (

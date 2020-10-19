@@ -24,7 +24,6 @@ export default class QuizDiv extends Component {
     this.props.callbackFunction(key);
   }
   changeInput(stateName, input) {
-    //this.props.getInput(stateName, input);
     this.setState({
       stateName: stateName,
       input: input,

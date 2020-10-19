@@ -6,7 +6,6 @@ import Home from "./Home";
 import Service from "./Service";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { fetchServiceResult } from "./data/fetchService";
 
 function App() {
   const link = [

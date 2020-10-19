@@ -10,9 +10,6 @@ const styles = {
 };
 
 export default class WorkflowItem extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     const { title, text, img } = this.props;
     const source = (src) => {

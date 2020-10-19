@@ -8,11 +8,7 @@ const styles = {
     animationName: Radium.keyframes(fadeInUp, "fadeInUp"),
   },
 };
-/* */
 export default class ServiceItem extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
     const { title, subTitle, text, img } = this.props;
     const source = (src) => {
