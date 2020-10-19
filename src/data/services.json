@@ -1,0 +1,258 @@
+{
+  "data": {
+    "services": [
+      {
+        "id": 1,
+        "keyword": "basic small shorttime lowcost create",
+        "title": "Basic Small Package",
+        "content": "We will deliver you a small scale but high quality product with both frontend and backend in a short period of time",
+        "scale": "1-3 developers",
+        "deliverTime": "3 months",
+        "img": "service1",
+        "price": 100000,
+        "currency": "SEK",
+        "freeRevise": 1
+      },
+      {
+        "id": 2,
+        "keyword": "basic medium shorttime lowcost create",
+        "title": "Basic Medium Package",
+        "content": "We will deliver you a medium scale and high quality product with both frontend and backend in a short period of time",
+        "scale": "1-3 developers",
+        "deliverTime": "6 months",
+        "img": "service2",
+        "price": 150000,
+        "currency": "SEK",
+        "freeRevise": 2
+      },
+      {
+        "id": 3,
+        "keyword": "basic big shorttime lowcost create",
+        "title": "Basic Premium Package",
+        "content": "We will deliver you a high quality product that will meet all your demand with both frontend and backend in a short period of time",
+        "scale": "3-5 developers",
+        "deliverTime": "12 months",
+        "img": "service3",
+        "price": 250000,
+        "currency": "SEK",
+        "freeRevise": 3
+      },
+      {
+        "id": 4,
+        "keyword": "advanced small longtime highcost create",
+        "title": "Advanced Small Package",
+        "content": "We will customize a small scale but with premium quality product for your company that will meet all your demand a short period of time. Plus, we will report you the process every two weeks and improve the product base on your comment during development period. We will also provide you a free revising service",
+        "scale": "2-4 developers",
+        "deliverTime": "3 months",
+        "img": "service4",
+        "price": 300000,
+        "currency": "SEK",
+        "freeRevise": 1
+      },
+      {
+        "id": 5,
+        "keyword": "advanced medium longtime highcost create",
+        "title": "Advanced Medium Package",
+        "content": "We will customize a medium scale but with premium quality product for your company that will meet all your demand. We will report you the process every two weeks and continuously improve the product base on your comment during development period.",
+        "scale": "3-6 developers",
+        "deliverTime": "6 months",
+        "img": "service5",
+        "price": 500000,
+        "currency": "SEK",
+        "freeRevise": 2
+      },
+      {
+        "id": 6,
+        "keyword": "advanced big longtime highcost create",
+        "title": "Advanced Premium Package",
+        "content": "We will customize a big scale project with premium quality for your company that will meet all your demand. We will report you the process every two weeks and continuously improve the product base on your comment during development period.",
+        "scale": "More than 6 developers",
+        "deliverTime": "12 months",
+        "img": "service6",
+        "price": 1000000,
+        "currency": "SEK",
+        "freeRevise": 3
+      },
+      {
+        "id": 7,
+        "keyword": "customize big longtime highcost create",
+        "title": "Advanced Customize Package",
+        "content": "We will provide you a totally customize experience, all your demands will be delivered with the best quality as fast as you would like it to be. Every two weeks we will report you the progress and continuously improve the product base on your comment during development period.",
+        "scale": "Base on your demand",
+        "deliverTime": "Base on your demand",
+        "img": "service7",
+        "price": "2000000+",
+        "currency": "SEK",
+        "freeRevise": "as many times as you need"
+      },
+      {
+        "id": 8,
+        "keyword": "basic small shorttime lowcost repair",
+        "title": "Basic Small Package",
+        "content": "We will help you to improve your small scale product with high quality result. We provide you both frontend and backend service.",
+        "scale": "1-3 developers",
+        "deliverTime": "3 months",
+        "img": "service8",
+        "price": 100000,
+        "currency": "SEK",
+        "freeRevise": 1
+      },
+      {
+        "id": 9,
+        "keyword": "basic medium shorttime lowcost repair",
+        "title": "Basic Medium Package",
+        "content": "We will help you to improve your medium scale product with high quality result. We provide you both frontend and backend service.",
+        "scale": "1-3 developers",
+        "deliverTime": "6 months",
+        "img": "service9",
+        "price": 150000,
+        "currency": "SEK",
+        "freeRevise": 2
+      },
+      {
+        "id": 10,
+        "keyword": "basic big shorttime lowcost repair",
+        "title": "Basic Premium Package",
+        "content": "We will deliver you a high quality improvement result for your existing product that will meet all your demand with both frontend and backend in a short period of time",
+        "scale": "3-5 developers",
+        "deliverTime": "12 months",
+        "img": "service10",
+        "price": 250000,
+        "currency": "SEK",
+        "freeRevise": 3
+      },
+      {
+        "id": 11,
+        "keyword": "advanced small longtime highcost repair",
+        "title": "Advanced Small Package",
+        "content": "We will customize a small scale but with premium quality improving service for your existing project that will meet all your demand a short period of time. Plus, we will report you the process every two weeks and improve the product base on your comment during development period. We will also provide you a free revising service",
+        "scale": "2-3 developers",
+        "deliverTime": "3 months",
+        "img": "service11",
+        "price": 300000,
+        "currency": "SEK",
+        "freeRevise": 1
+      },
+      {
+        "id": 12,
+        "keyword": "advanced medium longtime highcost repair",
+        "title": "Advanced Medium Package",
+        "content": "We will customize a medium scale but with premium quality improving service for your existing project that will meet all your demand. We will report you the process every two weeks and continuously improve the product base on your comment during development period.",
+        "scale": "2-4 developers",
+        "deliverTime": "6 months",
+        "img": "service12",
+        "price": 500000,
+        "currency": "SEK",
+        "freeRevise": 2
+      },
+      {
+        "id": 13,
+        "keyword": "advanced big longtime highcost repair",
+        "title": "Advanced Premium Package",
+        "content": "We will customize a big scale improving service with premium quality for your existing project that will meet all your demand. We will report you the process every two weeks and continuously improve the product base on your comment during development period.",
+        "scale": "More than 5 developers",
+        "deliverTime": "12 months",
+        "img": "service13",
+        "price": 1000000,
+        "currency": "SEK",
+        "freeRevise": 3
+      },
+      {
+        "id": 14,
+        "keyword": "customize big longtime highcost repair",
+        "title": "Advanced Customize Package",
+        "content": "As long as there is an existing project, we can make everything become possible! We will provide you a totally customize experience, all your demands will be delivered with the best quality as fast as you would like it to be. Every two weeks we will report you the progress and continuously improve the product base on your comment during development period.",
+        "scale": "Base on your demand",
+        "deliverTime": "Base on your demand",
+        "img": "service14",
+        "price": "2000000+",
+        "currency": "SEK",
+        "freeRevise": "as many times as you need"
+      },
+      {
+        "id": 15,
+        "keyword": "customize big longtime highcost repair create",
+        "title": "Full Package",
+        "content": "No matter what you need, we will help you to gain. In this full package, we will not only delivery you a simple product. Instead, we will help you to find your goal, as well as provide all the services you will need to build your team (business and technique) from scratch. Come and tell your vision, we will work together with you!",
+        "scale": "Base on your demand",
+        "deliverTime": "Base on your demand",
+        "img": "service15",
+        "price": "To be negotiated",
+        "currency": "SEK",
+        "freeRevise": "as many times as you need"
+      }
+    ],
+
+    "quiz": [
+      {
+        "id": 1,
+        "question": "What is your company's name?",
+        "stateName": "name"
+      },
+      {
+        "id": 2,
+        "question": "What is your email address?",
+        "stateName": "email"
+      },
+      {
+        "id": 3,
+        "question": "Which service you would like us to do?",
+        "stateName": "service",
+        "answers": [
+          { "id": "1-1", "answer": "Create a new project", "key": "create" },
+          {
+            "id": "1-2",
+            "answer": "Improve my existing project",
+            "key": "repair"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "How long time would you like it to deliver?",
+        "stateName": "deliver-time",
+        "answers": [
+          { "id": "2-1", "answer": "3 months", "key": "small" },
+          {
+            "id": "2-2",
+            "answer": "3-6 months",
+            "key": "medium"
+          },
+          {
+            "id": "2-3",
+            "answer": "6-12 months",
+            "key": "big"
+          },
+          {
+            "id": "2-4",
+            "answer": "I'm not sure",
+            "key": "big"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "How much is your budget?",
+        "stateName": "budget",
+        "answers": [
+          { "id": "3-1", "answer": "10k - 30k SEK", "key": "basic" },
+          {
+            "id": "3-2",
+            "answer": "30k - 100k SEK",
+            "key": "advanced"
+          },
+          {
+            "id": "3-3",
+            "answer": "Higher than 100k SEK",
+            "key": "customize"
+          },
+          {
+            "id": "3-4",
+            "answer": "I'm not sure",
+            "key": "customize"
+          }
+        ]
+      }
+    ]
+  }
+}

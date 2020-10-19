@@ -1,0 +1,68 @@
+.Service {
+  background: #f4b13e;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.service-header {
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.service-group {
+  justify-content: center;
+}
+.service {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.service-pic {
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2rem;
+}
+.ServiceTitle {
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2rem;
+}
+.service-div-title {
+  color: #f4b13e;
+}
+.service-text {
+  border-top: 2px solid #ffffff;
+  /*border-bottom: 2px solid #ffffff;*/
+  margin-top: 1rem;
+  padding: 10px;
+  padding-top: 1.5rem;
+  text-align: left;
+  color: #ffffff;
+}
+.info-box {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .service-pic {
+    height: 380px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .service-pic {
+    height: 420px;
+  }
+}
