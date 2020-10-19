@@ -66,3 +66,30 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+////
+
+Docker:
+
+1. Open docker
+2. Go to terminal, type: docker build -t sample:dev .
+3. type:
+   _docker run \
+    -it \
+    --rm \
+    -v \${PWD}:/app \
+    -v /app/node_modules \
+    -p 3001:3000 \
+    -e CHOKIDAR_USEPOLLING=true \
+    sample:dev_/
+
+How heroku works:
+
+1. install heroku: npm install heroku cli
+2. go to heroku.com, login, go to the app 'maniva-digital-cindy', then go back to terminal
+3. type: heroku container:login
+   +.
+   type: heroku buildpacks:set https://github.com/mars/create-react-app-buildpack --app maniva-digital-cindy
+4. type: docker build -t registry.heroku.com/maniva-digital-cindy/web .
+5. type: docker push registry.heroku.com/maniva-digital-cindy/web
+6. type: heroku container:release web --app maniva-digital-cindy
