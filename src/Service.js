@@ -61,7 +61,7 @@ export default class Service extends Component {
               : null}
           </div>
         ) : (
-          <div className="row">
+          <div>
             <h1>Want know more about our Service?</h1>
             <Btn />
           </div>
