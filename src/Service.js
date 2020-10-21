@@ -43,8 +43,9 @@ export default class Service extends Component {
             {this.state.result !== 0
               ? this.state.result.map((item) => (
                   <div
-                    className="row-item col-10 col-md-6 col-lg-4 col-xl-4"
+                    className="row-item col-10 col-md-5 col-lg-5 col-xl-5"
                     key={item.id}
+                    style={{margin:'0 2rem 0 2rem'}}
                   >
                     <ServiceDiv
                       title={item.title}
